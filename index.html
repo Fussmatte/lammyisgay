@@ -3,23 +3,34 @@
     <head>
         <title>LAMMY IS GAY AND KATY IS ALSO GAY</title>
         <style>
-            body{background:white;font-family:sans-serif;}
-            div{text-align:center;font-size:10px;}
-            a:link,a:visited{color:blue;}
-            a:hover{color:red;}
+            body{background:url('candybar.png'), url('candybar2.png');background-repeat:repeat-x,repeat;font-family:sans-serif;}
+            div#content{backdrop-filter: blur(2px);}
+            div#container{text-align:center;font-size:10px;}
+            div#embedborder{font-family:"Impact",sans-serif;color:white;margin:0 auto;width:640px;height:480px;border-radius:16px 16px 0 0;}
+            div#ruffleloadtxt{height:0px;font-size:32px;line-height:480px;}
+            div#links{color:#999;width:640px;margin:0 auto;border-radius:0 0 16px 16px;}
+            div#embedborder, div#links{background:black;border-style:solid;border-width:8px;border-color:black;}
+            a:link,a:visited{color:#eea6af;text-decoration:none;}
+            a:hover{color:white;}
         </style>
-        <link rel="icon" type="image/png" href="https://lammy-is.gay/favicon.png">
-        <meta content="Lammy is Gay" property="og:title" />
-        <meta content="And so is Katy" property="og:description" />
-        <meta content="https://lammy-is.gay/" property="og:url" />
-        <meta content="https://lammy-is.gay/embed.png" property="og:image" />
-        <meta content="#43B581" data-react-helmet="true" name="theme-color" />
     </head>
     <body>
         <script src="ruffle/ruffle.js"></script>
-        <div>
-            <embed src="gaysite.swf" menu="false" width="640" height="480"></embed><br>
-            <a href="https://twitter.com/UmJammerLammyPS">Visit UmJammerLammyPS on Twitter for more dumb crap</a>
+        <script>
+            let player = ruffle.createPlayer();
+            player.config = {
+                "backgroundColor": "#000000",
+            };
+        </script>
+    <div id="content">
+        <div id="container">
+            <div id="embedborder"><div id="ruffleloadtxt">Ruffle is loading, please wait...</div>
+            <div id="embed"><embed src="gaysite.swf" menu="false" width="640" height="480"></embed></div>
         </div>
+        <div id="links">
+            <a href="https://twitter.com/UmJammerLammyPS">Visit @UmJammerLammyPS</a> &middot; <a href="https://ujlps.carrd.co">More info</a> &middot; <a href="https://discord.gg/PhdUG5ybSH">Discord</a><br>
+            Website & animation by <a href="https://twitter.com/ReeseTheRivers">Reese Rivers</a>, 2021. Characters by <a href="https://www.rodneyfun.com">Rodney Alan Greenblat</a>. Music &copy; Nintendo.
+        </div>
+    </div>
     </body>
 </html>
