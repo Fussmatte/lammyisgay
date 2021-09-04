@@ -61,22 +61,25 @@ $>last name
 $prehistoric name action
 [Watch|Wait|Walk|Swim|Skip|Find|Think|Believe|Distrust|Scream|Complain|Butcher|Destroy|Massacre|Track|Speak|Burn|Eat|Drink|Throw|Sleep|Know|Paint|Hope|Mumble|Worry|Soothe|Sing|Summon|Gather|Hunt|Climb|Make|Sculpt|Build|Remember|Glance|Lick|Hide|Flee|Run|Dream|Miss|Keep|Reveal|Cook]
 
+$prehistoric name action (binary)
+[Watches|Waits|Walks|Swims|Skips|Finds|Thinks|Believes|Distrusts|Screams|Complains|Butchers|Destroys|Massacres|Tracks|Speaks|Burns|Eats|Drinks|Throws|Sleeps|Knows|Paints|Hopes|Mumbles|Worries|Soothes|Sings|Summons|Gathers|Hunts|Climbs|Makes|Sculpts|Builds|Remembers|Glances|Licks|Hides|Flees|Runs|Dreams|Misses|Keeps|Reveals|Cooks]
+
 $prehistoric base name
 [Passing|Walking|Running|Sitting|Kneeling|Timid|Dreaming|Swift|Deadly|Wise|Old|Young|Ugly|Bright|Broken|Fine|Soulful|Loud|Mad|Crazed|Unending|Lone|Sure|Steady|Hungry|Crafty|Thirsty|Rising|Falling|Huge|Magnificent|Deep|Aching|Mourning|Sweet|Kind|Comforting|Misshapen|Smiling|Sneaking|Trusted|Shifty|Furious|Lustful|Thundering|Raving] [Thought|Eyes|Legs|Hands|Nose|Sorrow|Scream|Whisper|Rage|Stream|River|Sky|Light|Spark|Moon|Sun|Star|Forest|Cloud|Tree|Rock|Beast|Rabbit|Wolf|Auroch|Mammoth|Lion|Spear|Flame|Cave|Ocean|Snail|Slug|Bear|Shark|Toad|Day|Night|Friend|Snake|Ears|Spirit|Track|Pebble|Boulder|Mountain|Volcano|Storm|Rain|Snow]
 
 $>prehistoric name (female)
 [prehistoric base name]
-She Who [prehistoric name action][s] {5%}
+She Who [prehistoric name action (binary)] {5%}
 $>prehistoric name (male)
 [prehistoric base name]
-He Who [prehistoric name action][s] {5%}
+He Who [prehistoric name action (binary)] {5%}
 $>prehistoric name (neutral)
 [prehistoric base name]
 They Who [prehistoric name action] {5%}
 
 $>prehistoric name
 [prehistoric base name]
-[He|She] Who [prehistoric name action][s] {4%}
+[He|She] Who [prehistoric name action (binary)][s] {4%}
 [They] Who [prehistoric name action] {2%}
 
 
