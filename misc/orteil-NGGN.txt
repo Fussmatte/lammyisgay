@@ -5,22 +5,6 @@ Contains :
 	[first name] [last name] [name]
 	[first name (female)] [first name (male)] [first name (neutral)]
 	
-	medieval names
-	[medieval first name] [medieval last name] [medieval name]
-	[medieval first name (female)] [medieval first name (male)] [medieval first name (neutral)]
-	
-	future names
-	[future first name] [future last name] [future name]
-	[future first name (female)] [future first name (male)] [future first name (neutral)]
-	
-	rad names (80's and such)
-	[rad first name] [rad last name] [rad name]
-	[rad first name (female)] [rad first name (male)] [rad first name (neutral)]
-	
-	roman names
-	[roman first name] [roman last name] [roman name]
-	[roman first name (female)] [roman first name (male)] [roman first name (neutral)]
-	
 	prehistoric names
 	[prehistoric name]
 	[prehistoric name (female)] [prehistoric name (male)] [prehistoric name (neutral)]
@@ -28,6 +12,8 @@ Contains :
 	internet pseudonyms
 	[internet pseudonym]
 	[internet pseudonym (female)] [internet pseudonym (male)] [internet pseudonym (neutral)]
+	
+	Others are yet to be added
 
 */
 
@@ -158,14 +144,6 @@ $>internet pseudonym
 [internet pseudonym base,Abc]
 [internet pseudonym base,ABC] {5%}
 
-
-$>completely random name
-[name]
-[future name]
-[medieval name]
-[rad name]
-[roman name]
-[prehistoric name]
 
 $>name
 [first name] [last name]
