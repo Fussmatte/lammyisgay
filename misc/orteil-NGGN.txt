@@ -1,0 +1,186 @@
+/*
+
+Contains :
+	modern english names
+	[first name] [last name] [name]
+	[first name (female)] [first name (male)] [first name (neutral)]
+	
+	medieval names
+	[medieval first name] [medieval last name] [medieval name]
+	[medieval first name (female)] [medieval first name (male)] [medieval first name (neutral)]
+	
+	future names
+	[future first name] [future last name] [future name]
+	[future first name (female)] [future first name (male)] [future first name (neutral)]
+	
+	rad names (80's and such)
+	[rad first name] [rad last name] [rad name]
+	[rad first name (female)] [rad first name (male)] [rad first name (neutral)]
+	
+	roman names
+	[roman first name] [roman last name] [roman name]
+	[roman first name (female)] [roman first name (male)] [roman first name (neutral)]
+	
+	prehistoric names
+	[prehistoric name]
+	[prehistoric name (female)] [prehistoric name (male)] [prehistoric name (neutral)]
+	
+	internet pseudonyms
+	[internet pseudonym]
+	[internet pseudonym (female)] [internet pseudonym (male)] [internet pseudonym (neutral)]
+
+*/
+
+$amount : 20
+$name : Name generator (gender-neutral)
+$author : Orteil/Reese Rivers
+$description : Used for inclusion if you ever need a random name. Can be a bit slow. Read source for more info.
+$picture : img/people.png
+
+$>first name (female)
+[Mary|Patricia|Linda|Barbara|Elizabeth|Jennifer|Maria|Susan|Margaret|Dorothy|Lisa|Nancy|Karen|Betty|Helen|Sandra|Donna|Carol|Ruth|Sharon|Michelle|Laura|Sarah|Kimberly|Deborah|Jessica|Shirley|Cynthia|Angela|Melissa|Brenda|Amy|Anna|Rebecca|Virginia|Kathleen|Pamela|Martha|Debra|Amanda|Stephanie|Carolyn|Christine|Marie|Janet|Catherine|Frances|Ann|Joyce|Diane|Alice|Julie|Heather|Teresa|Doris|Gloria|Evelyn|Jean|Cheryl|Mildred|Katherine|Joan|Ashley|Judith|Rose|Janice|Kelly|Nicole|Judy|Christina|Kathy|Theresa|Beverly|Denise|Tammy|Irene|Jane|Lori|Rachel|Marilyn|Andrea|Kathryn|Louise|Sara|Anne|Jacqueline|Wanda|Bonnie|Julia|Ruby|Lois|Tina|Phyllis|Norma|Paula|Diana|Annie|Lillian|Emily|Robin]
+
+$>first name (male)
+[James|John|Robert|Michael|William|David|Richard|Charles|Joseph|Thomas|Christopher|Daniel|Paul|Mark|Donald|George|Kenneth|Steven|Edward|Brian|Ronald|Anthony|Kevin|Jason|Matthew|Gary|Timothy|Jose|Larry|Jeffrey|Frank|Scott|Eric|Stephen|Andrew|Raymond|Gregory|Joshua|Jerry|Dennis|Walter|Patrick|Peter|Harold|Douglas|Henry|Carl|Arthur|Ryan|Roger|Joe|Juan|Jack|Albert|Jonathan|Justin|Terry|Gerald|Keith|Samuel|Willie|Ralph|Lawrence|Nicholas|Roy|Benjamin|Bruce|Brandon|Adam|Harry|Fred|Wayne|Billy|Steve|Louis|Jeremy|Aaron|Randy|Howard|Eugene|Carlos|Russell|Bobby|Victor|Martin|Ernest|Phillip|Todd|Jesse|Craig|Alan|Shawn|Clarence|Sean|Philip|Chris|Johnny|Earl|Jimmy|Antonio]
+
+$>first name (neutral)
+[Jess|Aubrey|Avery|Ocean|Emerson|Shelby|Sigi|Evelyn|Merlyn|Emory|Kayden|Kelcey|Taylor|Nicky|Cedar|Regan|Sunny|Vinnie|Hilary|Ronnie|Carol|Cleo|Tommie|Cary|Windsor|Yancy|Amery|Florence|Flannery|Dene|Harley|Sal|Lennon|Esme|Sequoia|Campbell|Celestine|Micha|Mo|Issy|Tristen|Hollis|Rain|Haven|Devyn|Wallis|Lauren|Mickey|Palmer|Shirley|Shanon|Val|Patsy|Finley|Connie|Pacey|Maria|Sydney|Kenzie|Tayler|Lorin|Lindy|Reilly|Steph|Cyan|Indiana|Hartley|Stacy|Ellery|Raleigh|Nat|Ridley|Quin|Lou|Candide|Ricki|Sheridan|Bernie|Dany|Peyton|Maxi|Dusty|Jimmie|Marie|Cherokee|Ulli|Carson|Ashley|Jojo|Jo|Harper|Garnett|Charley|Marlowe|Jody|Sloan|Cassidy|Mattie|Camryn|Parris|Kendal]
+
+$>first name
+[first name (male)]
+[first name (female)]
+[first name (neutral)]
+
+$last name prefix
+[Mc|Mac|O'] {1%}
+
+$>last name
+[last name prefix][Smith|Johnson|Williams|Brown|Jones|Miller|Davis|Garcia|Rodriguez|Wilson|Martinez|Anderson|Taylor|Thomas|Hernandez|Moore|Martin|Jackson|Thompson|White|Lopez|Lee|Gonzalez|Harris|Clark|Lewis|Robinson|Walker|Perez|Hall|Young|Allen|Sanchez|Wright|King|Scott|Green|Baker|Adams|Nelson|Hill|Ramirez|Campbell|Mitchell|Roberts|Carter|Phillips|Evans|Turner|Torres|Parker|Collins|Edwards|Stewart|Flores|Morris|Nguyen|Murphy|Rivera|Cook|Rogers|Morgan|Peterson|Cooper|Reed|Bailey|Bell|Gomez|Kelly|Howard|Ward|Cox|Diaz|Richardson|Wood|Watson|Brooks|Bennett|Gray|James|Reyes|Cruz|Hughes|Price|Myers|Long|Foster|Sanders|Ross|Morales|Powell|Sullivan|Russell|Ortiz|Jenkins|Gutierrez|Perry|Butler|Barnes|Fisher|Henderson|Coleman|Simmons|Patterson|Jordan|Reynolds|Hamilton|Graham|Kim|Gonzales|Alexander|Ramos|Wallace|Griffin|West|Cole|Hayes|Chavez|Gibson|Bryant|Ellis|Stevens|Murray|Ford|Marshall|Owens|Harrison|Ruiz|Kennedy|Wells|Alvarez|Woods|Mendoza|Castillo|Olson|Webb|Washington|Tucker|Freeman|Burns|Henry|Vasquez|Snyder|Simpson|Crawford|Jimenez|Porter|Mason|Shaw|Gordon|Wagner|Hunter|Romero|Hicks|Dixon|Hunt|Palmer|Robertson|Black|Holmes|Stone|Meyer|Boyd|Mills|Warren|Fox|Rose|Rice|Moreno|Schmidt|Patel|Ferguson|Nichols|Herrera|Medina|Ryan|Fernandez|Weaver|Daniels|Stephens|Gardner|Payne|Kelley|Dunn|Pierce|Arnold|Tran|Spencer|Peters|Hawkins|Grant|Hansen|Castro|Hoffman|Hart|Elliott|Cunningham|Knight|Bradley]
+
+
+$>rad first name (female)
+[Gurl|Grrrl|Dudette|Yassqueen|Pixie|Like|Face|Tweet|Website|Soda|Pop|Sweetener|Totes|Friendship|404|Turkey|Piercing|Turtle|What|Cellphone|Guzzle|Shorts|Glamorous|Icecream|Dotcom|Furby|Lava|Hurr|Wristwatch|Twinkle|T-shirt|Cinderblock|Lil'|Knishes|Decal|Vignette|Peanut|Sunshine|M'lady|Lick|Beta|Poppet]
+
+$>rad first name (male)
+[Dude|Duuude|Bro|Bruh|Nuggets|Blog|Hyperlink|Fist|Videogame|Backflip|Skateboard|Fluo|Chillax|Untitled|Armpit|Skinny|Thisguy|Truck|Onion|Snoop|Yeeeboi|Haircut|Engine|Jpeg|Robot|Boombox|Duh|Jacket|Habeeb|Nostril|Hammer|Big|Potato|Exhaust|Shoop|Donut|Yeet|Basement|Sniffy|Crypto|Tater]
+
+$>rad first name
+[rad first name (male)]
+[rad first name (female)]
+
+$rad last name prefix
+Mc {5%}
+$>rad last name
+[rad last name prefix][Super|Radical|Spiffy|Neato|Spooky|Awesome|Epic|Internet|Tubular|Cool|Supercool|Superneato|Just Nice|Just Great|to the Max|Nifty|Totally|Y'know|Neato Burrito|Powerblast|Donut|Peanut|Omelette|Spaghetti|Spork|Thirst|Power|Electrolytes|Fairy|Miracle|Magic|Magnets|Rainbow|Special|Namechange|Gnarly|Grody|Nasty|Keen|Okay|No Way|Yes Way|Yeah|Pretty Much|Extreme|High Five|Righteous|Chill Pill|Wattup|Sup|Solid|Pocket|Keepit Real|Whatever|Um Like|Whatevz|Homeboy|Homeskillet|Blatant|Wonderful|Decent|Imagination|Fancy|Worthington|Vape|Swaggy|Fedora|Gorgeous|Speedrun|Poggers|Bitcoin|Pop|Bop|Poppin']
+
+$>rad name
+[rad first name] [rad last name]
+
+
+$prehistoric name action
+[Watches|Waits|Walks|Swims|Skips|Finds|Thinks|Believes|Distrusts|Screams|Complains|Butchers|Destroys|Massacres|Tracks|Speaks|Burns|Eats|Drinks|Throws|Sleeps|Knows|Paints|Hopes|Mumbles|Worries|Soothes|Sings|Summons|Gathers|Hunts|Climbs|Makes|Sculpts|Builds|Remembers|Glances|Licks|Hides|Flees|Runs|Dreams|Misses|Keeps|Reveals|Cooks]
+
+$prehistoric base name
+[Passing|Walking|Running|Sitting|Kneeling|Timid|Dreaming|Swift|Deadly|Wise|Old|Young|Ugly|Bright|Broken|Fine|Soulful|Loud|Mad|Crazed|Unending|Lone|Sure|Steady|Hungry|Crafty|Thirsty|Rising|Falling|Huge|Magnificent|Deep|Aching|Mourning|Sweet|Kind|Comforting|Misshapen|Smiling|Sneaking|Trusted|Shifty|Furious|Lustful|Thundering|Raving] [Thought|Eyes|Legs|Hands|Nose|Sorrow|Scream|Whisper|Rage|Stream|River|Sky|Light|Spark|Moon|Sun|Star|Forest|Cloud|Tree|Rock|Beast|Rabbit|Wolf|Auroch|Mammoth|Lion|Spear|Flame|Cave|Ocean|Snail|Slug|Bear|Shark|Toad|Day|Night|Friend|Snake|Ears|Spirit|Track|Pebble|Boulder|Mountain|Volcano|Storm|Rain|Snow]
+
+$>prehistoric name (female)
+[prehistoric base name]
+She Who [prehistoric name action] {5%}
+$>prehistoric name (male)
+[prehistoric base name]
+He Who [prehistoric name action] {5%}
+$>prehistoric name (neutral)
+[prehistoric base name]
+They Who [prehistoric name action] {5%}
+
+$>prehistoric name
+[prehistoric base name]
+[He|She|They] Who [prehistoric name action] {5%}
+
+
+$random letter
+[a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z]
+$random syllable
+[b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|z][a|a|a|e|e|e|i|i|i|o|o|o|u|u|u|y]
+
+$internet pseudonym first part
+[cat|dog|kitty|puppy|squid|pony|giraffe|owl|horse|rhino|hippo|poke|dong|pizza|pasta|muffin|cookie|cake|max|epic|mc|body|mind|brain|glove|hat|magic|ghost|plastic|metal|music|swag|fedora|boss|cool|rad|neato|goku|noise|flab|zip|mac|pc|linux|burp|fart|bulge|fat|fun|fist|face|hair|loud|silent|ninja|ghost|zombie|punk|lotion|cream|raptor|dino|hot|sweet|poop|butt|red|blue|green|yellow|white|black|gray|dark|wolf|fox|pig|rat|snake|spider|liquid|solid|furry|baby|flower|tree|earth|meta|fish|bug|juicy|sassy|jesus|mario|sonic|pika|total|real|honey|spooky|money|dolla|mini|mega|super]
+
+$internet pseudonym first part (male)
+[internet pseudonym first part]
+[first name (male)] {20%}
+[boy|boi|sir|mister] {3%}
+
+$internet pseudonym first part (female)
+[internet pseudonym first part]
+[first name (female)] {20%}
+[girl|gurl|lady|miss] {3%}
+
+$internet pseudonym first part (neutral)
+[internet pseudonym first part]
+[first name (neutral)] {20%}
+[person|type|enby|enbi] {3%}
+
+$internet pseudonym last part
+[kicker|licker|sticker|stuffer|tickler|biter|liker|lover|friend|pal|buddy|master|sensei|bucket|biscuit|burger|nugget|rocker|smoker|sniffer|finder|searcher|hunter|cuddler|snuggler|jiggler|wiggler|crafter|winner|loser|fail|win|swag|gamer|player|hacker|maker|user|dreamer|skater|surfer|screamer|fan|mon|gangsta|basket|butts|face|stuck|fang|tail|soul|dream|cute]
+[last name] {30%}
+
+$internet pseudonym last part (male)
+[internet pseudonym last part]
+[boy|boi|god|guy|man|sir|bro] {3%}
+[first name (male)] {20%}
+
+$internet pseudonym last part (female)
+[internet pseudonym last part]
+[girl|gurl|goddess|chick|woman|lady|sis] {3%}
+[first name (female)] {20%}
+
+$internet pseudonym last part (neutral)
+[internet pseudonym last part]
+[enby|enbi|god|type|person|mixter|sib] {3%}
+[first name (neutral)] {20%}
+
+$internet pseudonym finisher
+[[0-1000]|[1950-2014]|[80-14]] {10%}
+
+$internet pseudonym base (male)
+[[internet pseudonym first part (male)]|[random syllable,x1-3]][[random syllable]|||||][[internet pseudonym last part (male)]|[random syllable,x1-3]|][internet pseudonym finisher]
+$internet pseudonym base (female)
+[[internet pseudonym first part (female)]|[random syllable,x1-3]][[random syllable]|||||][[internet pseudonym last part (female)]|[random syllable,x1-3]|][internet pseudonym finisher]
+$internet pseudonym base (neutral)
+[[internet pseudonym first part (neutral)]|[random syllable,x1-3]][[random syllable]|||||][[internet pseudonym last part (neutral)]|[random syllable,x1-3]|][internet pseudonym finisher]
+
+$internet pseudonym base
+[[internet pseudonym first part (male)]|[internet pseudonym first part (female)]|[internet pseudonym first part (neutral)]|[random syllable,x1-3]][[random syllable]|||||][[internet pseudonym last part (male)]|[internet pseudonym last part (female)]|[internet pseudonym last part (neutral)]|[random syllable,x1-3]|][internet pseudonym finisher]
+
+$>internet pseudonym (male)
+[internet pseudonym base (male)]
+[internet pseudonym base (male),Abc]
+[internet pseudonym base (male),ABC] {5%}
+
+$>internet pseudonym (female)
+[internet pseudonym base (female)]
+[internet pseudonym base (female),Abc]
+[internet pseudonym base (female),ABC] {5%}
+
+$>internet pseudonym (neutral)
+[internet pseudonym base (neutral)]
+[internet pseudonym base (neutral),Abc]
+[internet pseudonym base (neutral),ABC] {5%}
+
+$>internet pseudonym
+[internet pseudonym base]
+[internet pseudonym base,Abc]
+[internet pseudonym base,ABC] {5%}
+
+
+$>completely random name
+[name]
+[future name]
+[medieval name]
+[rad name]
+[roman name]
+[prehistoric name]
+
+$>name
+[first name] [last name]
