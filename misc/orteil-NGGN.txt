@@ -58,44 +58,26 @@ $>last name
 [last name prefix][Smith|Johnson|Williams|Brown|Jones|Miller|Davis|Garcia|Rodriguez|Wilson|Martinez|Anderson|Taylor|Thomas|Hernandez|Moore|Martin|Jackson|Thompson|White|Lopez|Lee|Gonzalez|Harris|Clark|Lewis|Robinson|Walker|Perez|Hall|Young|Allen|Sanchez|Wright|King|Scott|Green|Baker|Adams|Nelson|Hill|Ramirez|Campbell|Mitchell|Roberts|Carter|Phillips|Evans|Turner|Torres|Parker|Collins|Edwards|Stewart|Flores|Morris|Nguyen|Murphy|Rivera|Cook|Rogers|Morgan|Peterson|Cooper|Reed|Bailey|Bell|Gomez|Kelly|Howard|Ward|Cox|Diaz|Richardson|Wood|Watson|Brooks|Bennett|Gray|James|Reyes|Cruz|Hughes|Price|Myers|Long|Foster|Sanders|Ross|Morales|Powell|Sullivan|Russell|Ortiz|Jenkins|Gutierrez|Perry|Butler|Barnes|Fisher|Henderson|Coleman|Simmons|Patterson|Jordan|Reynolds|Hamilton|Graham|Kim|Gonzales|Alexander|Ramos|Wallace|Griffin|West|Cole|Hayes|Chavez|Gibson|Bryant|Ellis|Stevens|Murray|Ford|Marshall|Owens|Harrison|Ruiz|Kennedy|Wells|Alvarez|Woods|Mendoza|Castillo|Olson|Webb|Washington|Tucker|Freeman|Burns|Henry|Vasquez|Snyder|Simpson|Crawford|Jimenez|Porter|Mason|Shaw|Gordon|Wagner|Hunter|Romero|Hicks|Dixon|Hunt|Palmer|Robertson|Black|Holmes|Stone|Meyer|Boyd|Mills|Warren|Fox|Rose|Rice|Moreno|Schmidt|Patel|Ferguson|Nichols|Herrera|Medina|Ryan|Fernandez|Weaver|Daniels|Stephens|Gardner|Payne|Kelley|Dunn|Pierce|Arnold|Tran|Spencer|Peters|Hawkins|Grant|Hansen|Castro|Hoffman|Hart|Elliott|Cunningham|Knight|Bradley]
 
 
-$>rad first name (female)
-[Gurl|Grrrl|Dudette|Yassqueen|Pixie|Like|Face|Tweet|Website|Soda|Pop|Sweetener|Totes|Friendship|404|Turkey|Piercing|Turtle|What|Cellphone|Guzzle|Shorts|Glamorous|Icecream|Dotcom|Furby|Lava|Hurr|Wristwatch|Twinkle|T-shirt|Cinderblock|Lil'|Knishes|Decal|Vignette|Peanut|Sunshine|M'lady|Lick|Beta|Poppet]
-
-$>rad first name (male)
-[Dude|Duuude|Bro|Bruh|Nuggets|Blog|Hyperlink|Fist|Videogame|Backflip|Skateboard|Fluo|Chillax|Untitled|Armpit|Skinny|Thisguy|Truck|Onion|Snoop|Yeeeboi|Haircut|Engine|Jpeg|Robot|Boombox|Duh|Jacket|Habeeb|Nostril|Hammer|Big|Potato|Exhaust|Shoop|Donut|Yeet|Basement|Sniffy|Crypto|Tater]
-
-$>rad first name
-[rad first name (male)]
-[rad first name (female)]
-
-$rad last name prefix
-Mc {5%}
-$>rad last name
-[rad last name prefix][Super|Radical|Spiffy|Neato|Spooky|Awesome|Epic|Internet|Tubular|Cool|Supercool|Superneato|Just Nice|Just Great|to the Max|Nifty|Totally|Y'know|Neato Burrito|Powerblast|Donut|Peanut|Omelette|Spaghetti|Spork|Thirst|Power|Electrolytes|Fairy|Miracle|Magic|Magnets|Rainbow|Special|Namechange|Gnarly|Grody|Nasty|Keen|Okay|No Way|Yes Way|Yeah|Pretty Much|Extreme|High Five|Righteous|Chill Pill|Wattup|Sup|Solid|Pocket|Keepit Real|Whatever|Um Like|Whatevz|Homeboy|Homeskillet|Blatant|Wonderful|Decent|Imagination|Fancy|Worthington|Vape|Swaggy|Fedora|Gorgeous|Speedrun|Poggers|Bitcoin|Pop|Bop|Poppin']
-
-$>rad name
-[rad first name] [rad last name]
-
-
 $prehistoric name action
-[Watches|Waits|Walks|Swims|Skips|Finds|Thinks|Believes|Distrusts|Screams|Complains|Butchers|Destroys|Massacres|Tracks|Speaks|Burns|Eats|Drinks|Throws|Sleeps|Knows|Paints|Hopes|Mumbles|Worries|Soothes|Sings|Summons|Gathers|Hunts|Climbs|Makes|Sculpts|Builds|Remembers|Glances|Licks|Hides|Flees|Runs|Dreams|Misses|Keeps|Reveals|Cooks]
+[Watch|Wait|Walk|Swim|Skip|Find|Think|Believe|Distrust|Scream|Complain|Butcher|Destroy|Massacre|Track|Speak|Burn|Eat|Drink|Throw|Sleep|Know|Paint|Hope|Mumble|Worry|Soothe|Sing|Summon|Gather|Hunt|Climb|Make|Sculpt|Build|Remember|Glance|Lick|Hide|Flee|Run|Dream|Miss|Keep|Reveal|Cook]
 
 $prehistoric base name
 [Passing|Walking|Running|Sitting|Kneeling|Timid|Dreaming|Swift|Deadly|Wise|Old|Young|Ugly|Bright|Broken|Fine|Soulful|Loud|Mad|Crazed|Unending|Lone|Sure|Steady|Hungry|Crafty|Thirsty|Rising|Falling|Huge|Magnificent|Deep|Aching|Mourning|Sweet|Kind|Comforting|Misshapen|Smiling|Sneaking|Trusted|Shifty|Furious|Lustful|Thundering|Raving] [Thought|Eyes|Legs|Hands|Nose|Sorrow|Scream|Whisper|Rage|Stream|River|Sky|Light|Spark|Moon|Sun|Star|Forest|Cloud|Tree|Rock|Beast|Rabbit|Wolf|Auroch|Mammoth|Lion|Spear|Flame|Cave|Ocean|Snail|Slug|Bear|Shark|Toad|Day|Night|Friend|Snake|Ears|Spirit|Track|Pebble|Boulder|Mountain|Volcano|Storm|Rain|Snow]
 
 $>prehistoric name (female)
 [prehistoric base name]
-She Who [prehistoric name action] {5%}
+She Who [prehistoric name action][s] {5%}
 $>prehistoric name (male)
 [prehistoric base name]
-He Who [prehistoric name action] {5%}
+He Who [prehistoric name action][s] {5%}
 $>prehistoric name (neutral)
 [prehistoric base name]
 They Who [prehistoric name action] {5%}
 
 $>prehistoric name
 [prehistoric base name]
-[He|She|They] Who [prehistoric name action] {5%}
+[He|She] Who [prehistoric name action][s] {4%}
+[They] Who [prehistoric name action] {2%}
 
 
 $random letter
@@ -119,7 +101,7 @@ $internet pseudonym first part (female)
 $internet pseudonym first part (neutral)
 [internet pseudonym first part]
 [first name (neutral)] {20%}
-[person|type|enby|enbi] {3%}
+[enby|enbi|lord|mixter] {3%}
 
 $internet pseudonym last part
 [kicker|licker|sticker|stuffer|tickler|biter|liker|lover|friend|pal|buddy|master|sensei|bucket|biscuit|burger|nugget|rocker|smoker|sniffer|finder|searcher|hunter|cuddler|snuggler|jiggler|wiggler|crafter|winner|loser|fail|win|swag|gamer|player|hacker|maker|user|dreamer|skater|surfer|screamer|fan|mon|gangsta|basket|butts|face|stuck|fang|tail|soul|dream|cute]
