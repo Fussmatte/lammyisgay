@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>LNEdit v1.1</title>
-    <meta content="LNEdit" property="og:title">
+    <title>LNEdit v1.1.1</title>
+    <meta content="LNEdit v1.1.1" property="og:title">
     <meta content="A very simplistic text editor using the Legacy Neue font. Created by Reese Rivers in 2022." property="og:description">
     <meta content="https://lammy-is.gay/lnedit/" property="og:url">
     <meta content="https://lammy-is.gay/lnedit/embed.png" property="og:image">
@@ -274,7 +274,7 @@ pqrstuvwxyz{|}~¤
 
     function loadDoc() {
         //window.alert(pad.innerHTML);
-        pad.innerHTML = localStorage.getItem("txtsave");
+        pad.value = localStorage.getItem("txtsave");
         pad.addEventListener('keydown', function(e){
             if (e.keyCode == 17) {
                 e.preventDefault();
@@ -291,11 +291,11 @@ pqrstuvwxyz{|}~¤
     function saveDoc() {
         isCtrl = false;
         hasSaved(false);
-        localStorage.setItem("txtsave",pad.innerHTML);
+        localStorage.setItem("txtsave",pad.value);
     }
     function saveLocal() {
-        var cleantext = pad.innerHTML.replaceAll(/<br\s*[\/]?>/gi, "\n");
-        var bb = new Blob([cleantext], { type: 'text/plain' });
+        //var cleantext = pad.innerHTML.replaceAll(/<br\s*[\/]?>/gi, "\n");
+        var bb = new Blob([pad.value], { type: 'text/plain' });
         var a = document.createElement('a');
         a.download = 'txt.txt';
         a.href = window.URL.createObjectURL(bb);
@@ -320,8 +320,8 @@ pqrstuvwxyz{|}~¤
         var fileReader = new FileReader();
         fileReader.onload = function(fileLoadedEvent){
             var textFromFileLoaded = fileLoadedEvent.target.result;
-            pad.innerHTML = textFromFileLoaded;
-            localStorage.setItem("txtsave",pad.innerHTML);
+            pad.value = textFromFileLoaded;
+            localStorage.setItem("txtsave",pad.value);
         };
       
         fileReader.readAsText(fileToLoad, "UTF-8");
